@@ -18,3 +18,5 @@ if 'loc' in json_data:
 # Print the modified data without braces
 for key, value in json_data.items():
     print(f"{key}: {value}")
+
+input("\nPress Enter to exit...")
