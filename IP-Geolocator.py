@@ -2,10 +2,8 @@
 import os
 import json
 
-os.system("color 2")
 IP = input("Enter the Target's IP: ")
 data = os.popen(f"curl -s https://ipinfo.io/{IP}/json").read()
-os.system("color 4")
 
 #importing the data as json strings to control it
 json_data = json.loads(data)
